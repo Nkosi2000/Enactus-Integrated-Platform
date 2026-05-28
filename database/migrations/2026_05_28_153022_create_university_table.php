@@ -1,0 +1,52 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::create('university', function (Blueprint $table) {
+            $table->id();
+            $table->string('name', 250);
+            $table->string('short_name', 50)->nullable();
+        });
+
+        DB::table('university')->insert([
+            ['name' => 'Cape Peninsula University of Technology', 'short_name' => 'CPUT'],
+            ['name' => 'Central University of Technology', 'short_name' => 'CUT'],
+            ['name' => 'Durban University of Technology', 'short_name' => 'DUT'],
+            ['name' => 'Walter Sisulu University', 'short_name' => 'WSU'],
+            ['name' => 'Mangosuthu University of Technology', 'short_name' => 'MUT'],
+            ['name' => 'Nelson Mandela University', 'short_name' => 'NMU'],
+            ['name' => 'North-West University', 'short_name' => 'NWU'],
+            ['name' => 'Rhodes University', 'short_name' => 'RU'],
+            ['name' => 'Sefako Makgatho Health Sciences University', 'short_name' => 'SMU'],
+            ['name' => 'Sol Plaatje University', 'short_name' => 'SPU'],
+            ['name' => 'Stellenbosch University', 'short_name' => 'SU'],
+            ['name' => 'Tshwane University of Technology', 'short_name' => 'TUT'],
+            ['name' => 'Tsolo Agriculture and Rural Development Institute', 'short_name' => 'TARDI'],
+            ['name' => 'University of Cape Town', 'short_name' => 'UCT'],
+            ['name' => 'University of Fort Hare', 'short_name' => 'UFH'],
+            ['name' => 'University of Johannesburg', 'short_name' => 'UJ'],
+            ['name' => 'University of KwaZulu-Natal', 'short_name' => 'UKZN'],
+            ['name' => 'University of Limpopo', 'short_name' => 'UL'],
+            ['name' => 'University of Mpumalanga', 'short_name' => 'UMP'],
+            ['name' => 'University of Pretoria', 'short_name' => 'UP'],
+            ['name' => 'University of the Free State', 'short_name' => 'UFS'],
+            ['name' => 'University of the Western Cape', 'short_name' => 'UWC'],
+            ['name' => 'University of the Witwatersrand', 'short_name' => 'Wits'],
+            ['name' => 'University of Venda', 'short_name' => 'Univen'],
+            ['name' => 'University of Zululand', 'short_name' => 'UniZulu'],
+            ['name' => 'Vaal University of Technology', 'short_name' => 'VUT'],
+        ]);
+    }
+
+    public function down(): void
+    {
+        Schema::dropIfExists('university');
+    }
+};

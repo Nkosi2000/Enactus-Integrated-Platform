@@ -11,31 +11,20 @@ return new class extends Migration
     {
         Schema::create('student', function (Blueprint $table) {
             $table->id();
-            // One-to-one with users – only students get a row here
             $table->foreignId('user_id')->unique()->constrained('users')->onDelete('cascade');
-
-            // Academic linkage – campus carries the province automatically
             $table->foreignId('university_id')->constrained('university');
             $table->foreignId('campus_id')->nullable()->constrained('campus');
-            $table->foreignId('faculty_id')->nullable();   // FK to a future faculty table
-
+            $table->foreignId('faculty_id')->nullable();
             $table->unsignedTinyInteger('year_of_study');
-
-            // Student status within the platform (distinct from user role)
             $table->string('status')->default('active');
-            // Values: 'active', 'alumni', 'inactive'
-
-            // Demographic fields – all optional, all with a "prefer_not_to_say" option
             $table->string('gender')->nullable();
             $table->string('population_group')->nullable();
-            $table->char('country_of_citizenship', 2)->nullable();   // ISO 3166-1 alpha-2
-            $table->char('preferred_language', 2)->nullable();       // ISO 639-1 (ui language)
+            $table->char('country_of_citizenship', 2)->nullable();
+            $table->char('preferred_language', 2)->nullable();
             $table->string('self_identified_home_language')->nullable();
-
             $table->timestamps();
         });
 
-        // CHECK constraints for the controlled vocabularies
         DB::statement("ALTER TABLE student ADD CONSTRAINT student_status_check CHECK (
             status IN ('active','alumni','inactive')
         )");
