@@ -109,6 +109,6 @@ Designed with respect for South Africa's diverse population and POPIA compliance
 ```bash
 git clone https://github.com/Nkosi2000/Enactus-Integrated-Platform.git
 cd Enactus-Integrated-Platform
-
+```
 ---
 ### 
