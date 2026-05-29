@@ -15,34 +15,17 @@ return new class extends Migration
             $table->string('short_name', 50)->nullable();
         });
 
-        DB::table('university')->insert([
-            ['name' => 'Cape Peninsula University of Technology', 'short_name' => 'CPUT'],
-            ['name' => 'Central University of Technology', 'short_name' => 'CUT'],
-            ['name' => 'Durban University of Technology', 'short_name' => 'DUT'],
-            ['name' => 'Walter Sisulu University', 'short_name' => 'WSU'],
-            ['name' => 'Mangosuthu University of Technology', 'short_name' => 'MUT'],
-            ['name' => 'Nelson Mandela University', 'short_name' => 'NMU'],
-            ['name' => 'North-West University', 'short_name' => 'NWU'],
-            ['name' => 'Rhodes University', 'short_name' => 'RU'],
-            ['name' => 'Sefako Makgatho Health Sciences University', 'short_name' => 'SMU'],
-            ['name' => 'Sol Plaatje University', 'short_name' => 'SPU'],
-            ['name' => 'Stellenbosch University', 'short_name' => 'SU'],
-            ['name' => 'Tshwane University of Technology', 'short_name' => 'TUT'],
-            ['name' => 'Tsolo Agriculture and Rural Development Institute', 'short_name' => 'TARDI'],
-            ['name' => 'University of Cape Town', 'short_name' => 'UCT'],
-            ['name' => 'University of Fort Hare', 'short_name' => 'UFH'],
-            ['name' => 'University of Johannesburg', 'short_name' => 'UJ'],
-            ['name' => 'University of KwaZulu-Natal', 'short_name' => 'UKZN'],
-            ['name' => 'University of Limpopo', 'short_name' => 'UL'],
-            ['name' => 'University of Mpumalanga', 'short_name' => 'UMP'],
-            ['name' => 'University of Pretoria', 'short_name' => 'UP'],
-            ['name' => 'University of the Free State', 'short_name' => 'UFS'],
-            ['name' => 'University of the Western Cape', 'short_name' => 'UWC'],
-            ['name' => 'University of the Witwatersrand', 'short_name' => 'Wits'],
-            ['name' => 'University of Venda', 'short_name' => 'Univen'],
-            ['name' => 'University of Zululand', 'short_name' => 'UniZulu'],
-            ['name' => 'Vaal University of Technology', 'short_name' => 'VUT'],
-        ]);
+        $universities = json_decode(
+            file_get_contents(database_path('data/universities.json')),
+            true
+        );
+
+        foreach ($universities as $uni) {
+            DB::table('university')->insert([
+                'name' => $uni['name'],
+                'short_name' => $uni['short_name'] ?? null,
+            ]);
+        }
     }
 
     public function down(): void

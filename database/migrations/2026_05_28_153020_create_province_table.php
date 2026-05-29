@@ -14,17 +14,14 @@ return new class extends Migration
             $table->string('name', 50)->unique();
         });
 
-        DB::table('province')->insert([
-            ['name' => 'Eastern Cape'],
-            ['name' => 'Free State'],
-            ['name' => 'Gauteng'],
-            ['name' => 'KwaZulu-Natal'],
-            ['name' => 'Limpopo'],
-            ['name' => 'Mpumalanga'],
-            ['name' => 'Northern Cape'],
-            ['name' => 'North West'],
-            ['name' => 'Western Cape'],
-        ]);
+        $provinces = json_decode(
+            file_get_contents(database_path('data/provinces.json')),
+            true
+        );
+
+        foreach ($provinces as $province) {
+            DB::table('province')->insert(['name' => $province]);
+        }
     }
 
     public function down(): void

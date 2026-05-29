@@ -25,3 +25,8 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+#----------------------------------------------------------------
+# SSH tunnel script (contains personal username, do not commit)
+tunnel.bat
+#----------------------------------------------------------------
+

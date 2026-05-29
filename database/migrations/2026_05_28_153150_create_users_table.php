@@ -21,17 +21,16 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        DB::statement("ALTER TABLE users ADD CONSTRAINT users_role_check CHECK (
-            role IN (
-                'student',
-                'faculty_advisor',
-                'programme_manager',
-                'business_advisor',
-                'alumni',
-                'judge',
-                'board_member',
-                'admin'
-            )
+        // Build CHECK constraint from roles.json
+        $roles = json_decode(
+            file_get_contents(database_path('data/roles.json')),
+            true
+        );
+
+        $rolesList = implode("','", $roles);
+
+        DB::statement("ALTER TABLE users ADD CONSTRAINT user_role_check CHECK (
+            role IN ('{$rolesList}')
         )");
 
         Schema::create('password_reset_tokens', function (Blueprint $table) {

@@ -11,7 +11,7 @@ return new class extends Migration
     {
         Schema::create('student', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id')->unique()->constrained('users')->onDelete('cascade');
+            $table->foreignId('users_id')->unique()->constrained('users')->onDelete('cascade');
             $table->foreignId('university_id')->constrained('university');
             $table->foreignId('campus_id')->nullable()->constrained('campus');
             $table->foreignId('faculty_id')->nullable();
@@ -25,24 +25,43 @@ return new class extends Migration
             $table->timestamps();
         });
 
+        // Build CHECK constraints from JSON files
+        $statuses = json_decode(
+            file_get_contents(database_path('data/student_statuses.json')),
+            true
+        );
+        $genders = json_decode(
+            file_get_contents(database_path('data/genders.json')),
+            true
+        );
+        $populationGroups = json_decode(
+            file_get_contents(database_path('data/population_groups.json')),
+            true
+        );
+        $homeLanguages = json_decode(
+            file_get_contents(database_path('data/home_languages.json')),
+            true
+        );
+
+        $statusList = implode("','", $statuses);
+        $genderList = implode("','", $genders);
+        $populationList = implode("','", $populationGroups);
+        $languageList = implode("','", $homeLanguages);
+
         DB::statement("ALTER TABLE student ADD CONSTRAINT student_status_check CHECK (
-            status IN ('active','alumni','inactive')
+            status IN ('{$statusList}')
         )");
 
         DB::statement("ALTER TABLE student ADD CONSTRAINT student_gender_check CHECK (
-            gender IN ('male','female','non_binary','prefer_not_to_say')
+            gender IN ('{$genderList}')
         )");
 
         DB::statement("ALTER TABLE student ADD CONSTRAINT student_population_group_check CHECK (
-            population_group IN ('black_african','coloured','indian_or_asian','white','other','prefer_not_to_say')
+            population_group IN ('{$populationList}')
         )");
 
         DB::statement("ALTER TABLE student ADD CONSTRAINT student_home_language_check CHECK (
-            self_identified_home_language IN (
-                'english','afrikaans','isindebele','isixhosa','isizulu','sepedi',
-                'sesotho','setswana','siswati','tshivenda','xitsonga','other',
-                'prefer_not_to_say'
-            )
+            self_identified_home_language IN ('{$languageList}')
         )");
     }
 
