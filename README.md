@@ -5,7 +5,7 @@
 <h1 align="center"><img src="public/images/icon2.png" alt="Supabase" height="32"> Enactus Integrated Platform</h1>
 
 <p align="center">
-  <a href="https://laravel.com"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/laravel.svg" alt="Laravel" height="32"></a>&nbsp;&nbsp;
+  <a href="https://laravel.com"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/laravel.svg"  media="(prefers-color-scheme: light)" alt="Laravel" height="32"></a>&nbsp;&nbsp;
   <a href="https://www.php.net"><img src="public/images/php.svg" alt="PHP" height="32"></a>&nbsp;&nbsp;
   <a href="https://supabase.com/"><img src="public/images/supabase.svg" alt="Supabase" height="32"></a>&nbsp;&nbsp;
   <a href="https://coolify.io"><img src="public/images/coolify.svg" alt="Coolify" height="32"></a>&nbsp;&nbsp;
