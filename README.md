@@ -1,58 +1,111 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="public/images/enactuslogo.jpg" alt="Enactus Integrated Platform Logo" width="600">
 </p>
 
-## About Laravel
+<h1 align="center">🌍 Enactus Integrated Platform</h1>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  <a href="https://laravel.com"><img src="public/images/laravel.svg" alt="Laravel" height="32"></a>&nbsp;&nbsp;
+  <a href="https://www.php.net"><img src="public/images/php.svg" alt="PHP" height="32"></a>&nbsp;&nbsp;
+  <a href="https://supabase.com/"><img src="public/images/supabase.svg" alt="Supabase" height="32"></a>&nbsp;&nbsp;
+  <a href="https://coolify.io"><img src="public/images/coolify.svg" alt="Coolify" height="32"></a>&nbsp;&nbsp;
+  <a href="https://www.cloudflare.com"><img src="public/images/cloudflare.svg" alt="Cloudflare" height="32"></a>&nbsp;&nbsp;
+  <a href="https://www.hetzner.com"><img src="public/images/hetzner.svg" alt="Hetzner" height="32"></a>
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p align="center">
+  <a href="#-features"><b>✨ Features</b></a> •
+  <a href="#-tech-stack"><b>🧱 Tech Stack</b></a> •
+  <a href="#-getting-started"><b>🚀 Getting Started</b></a> •
+  <a href="#-authentication--roles"><b>🔐 Auth & Roles</b></a> •
+  <a href="#-contributing"><b>🤝 Contributing</b></a> •
+  <a href="#-license"><b>📄 License</b></a>
+</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 📖 About
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The **Enactus Integrated Platform** is the central digital hub for Enactus South Africa. It brings together students, ventures, programme managers, and partners on one platform — enabling seamless collaboration, impact tracking, and real-time reporting across all university teams.
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Designed with respect for South Africa's diverse population and POPIA compliance, the platform collects demographic data only for aggregated, anonymised reporting, with every field voluntary and a "prefer not to say" option.
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+---
 
-## Agentic Development
+## ✨ Features
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+<table>
+  <tr>
+    <td width="50%">
+      <h4>👥 Student CRM</h4>
+      <p>Comprehensive profiles, demographics, and engagement tracking with respect for privacy.</p>
+    </td>
+    <td width="50%">
+      <h4>🚀 Venture Tracking</h4>
+      <p>Projects from startup to scale-up, with stage updates, sectors, and multi‑year team histories.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4>📅 Programme Management</h4>
+      <p>Create training, competitions, bootcamps and record attendance per student.</p>
+    </td>
+    <td>
+      <h4>📝 Dynamic Form Submissions</h4>
+      <p>Custom forms per programme with JSON storage – text, numbers, selects, file uploads.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4>📊 Monitoring & Evaluation</h4>
+      <p>Period‑based metrics: revenue, jobs created, beneficiaries, funding raised, CAC.</p>
+    </td>
+    <td>
+      <h4>🏆 Leaderboard</h4>
+      <p>Score projects in startup/scale‑up stages and rank them per reporting cycle.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4>📚 LMS</h4>
+      <p>Learning modules with progress tracking per student.</p>
+    </td>
+    <td>
+      <h4>🔐 Role‑Based Access</h4>
+      <p>8 user roles – student, faculty advisor, programme manager, business advisor, alumni, judge, board member, admin.</p>
+    </td>
+  </tr>
+</table>
 
+---
+
+## 🧱 Tech Stack
+
+| 🛠️ Layer               | ⚡ Technology                                                                 |
+| :----------------------- | :-------------------------------------------------------------------------- |
+| **Backend**              | ![Laravel](public/images/laravel.svg) Laravel (PHP)                         |
+| **Database**             | ![Supabase](public/images/supabase.svg) PostgreSQL via Supabase             |
+| **Authentication**       | 🔐 Session‑based with custom role middleware                                |
+| **Frontend**             | 🎨 Blade + Tailwind CSS (planned)                                           |
+| **Deployment**           | ![Coolify](public/images/coolify.svg) Coolify on ![Hetzner](public/images/hetzner.svg) Hetzner, proxied through ![Cloudflare](public/images/cloudflare.svg) |
+| **Cache / Queue**        | 🗄️ Database driver (dev)                                                   |
+| **Testing**              | 🧪 PHPUnit                                                                  |
+
+> ⚠️ **For the icons to show on GitHub**, replace `public/images/...` paths with the raw GitHub URLs of your images. For example:  
+> `https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/laravel.svg`
+
+---
+
+## 🚀 Getting Started
+
+### 📋 Prerequisites
+- **PHP 8.4+** with extensions: `pgsql`, `pdo_pgsql`, `openssl`, `mbstring`, etc.
+- **Composer**
+- **Git**
+- **An SSH key** (Ed25519 recommended)
+- **A Hetzner server account** – ask the project lead to create one for you.
+
+### 1️⃣ Clone the repo
 ```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
-```
-
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+git clone https://github.com/Nkosi2000/Enactus-Integrated-Platform.git
+cd Enactus-Integrated-Platform
