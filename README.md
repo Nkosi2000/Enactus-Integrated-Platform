@@ -2,7 +2,7 @@
   <img src="public/images/enactuslogo2removebg.png" alt="Enactus Integrated Platform Logo" width="600">
 </p>
 
-<h1 align="center">🌍 Enactus Integrated Platform</h1>
+<h1 align="center"><img src="public/images/icon2.png" alt="Supabase" height="32"> Enactus Integrated Platform</h1>
 
 <p align="center">
   <a href="https://laravel.com"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/laravel.svg" alt="Laravel" height="32"></a>&nbsp;&nbsp;
@@ -109,3 +109,4 @@ Designed with respect for South Africa's diverse population and POPIA compliance
 ```bash
 git clone https://github.com/Nkosi2000/Enactus-Integrated-Platform.git
 cd Enactus-Integrated-Platform
+---
