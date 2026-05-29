@@ -81,15 +81,60 @@ Designed with respect for South Africa's diverse population and POPIA compliance
 
 ## 🧱 Tech Stack
 
-| 🛠️ Layer               | ⚡ Technology                                                                 |
-| :----------------------- | :-------------------------------------------------------------------------- |
-| **Backend**              | ![Laravel](public/images/laravel.svg) Laravel (PHP)                         |
-| **Database**             | ![Supabase](public/images/supabase.svg) PostgreSQL via Supabase             |
-| **Authentication**       | 🔐 Session‑based with custom role middleware                                |
-| **Frontend**             | 🎨 Blade + Tailwind CSS (planned)                                           |
-| **Deployment**           | ![Coolify](public/images/coolify.svg) Coolify on ![Hetzner](public/images/hetzner.svg) Hetzner, proxied through ![Cloudflare](public/images/cloudflare.svg) |
-| **Cache / Queue**        | 🗄️ Database driver (dev)                                                   |
-| **Testing**              | 🧪 PHPUnit                                                                  |
+## 🧱 Tech Stack
+
+<table>
+  <tr>
+    <td width="50%">
+      <h4>🔧 Backend</h4>
+      <p>
+        <img src="public/images/laravel.svg" height="20"> Laravel 11<br>
+        <img src="public/images/php.svg" height="20"> PHP 8.4
+      </p>
+    </td>
+    <td width="50%">
+      <h4>🗄️ Database</h4>
+      <p>
+        <img src="public/images/supabase.svg" height="20"> PostgreSQL 15 (Supabase)<br>
+        <img src="public/images/supabase.svg" height="20"> Row‑Level Security ready
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4>🚀 Deployment</h4>
+      <p>
+        <img src="public/images/coolify.svg" height="20"> Coolify<br>
+        <img src="public/images/hetzner.svg" height="20"> Hetzner CX23<br>
+        <img src="public/images/cloudflare.svg" height="20"> Cloudflare (Full SSL)
+      </p>
+    </td>
+    <td>
+      <h4>🔐 Authentication</h4>
+      <p>Session‑based auth with 8 custom roles and middleware protection.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4>🎨 Frontend</h4>
+      <p>Blade templates with Tailwind CSS (planned).</p>
+    </td>
+    <td>
+      <h4>🧪 Testing</h4>
+      <p>PHPUnit for unit and feature tests.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4>⚡ Cache & Queue</h4>
+      <p>Database driver for development; Redis ready for production.</p>
+    </td>
+    <td>
+      <h4>📦 Package Management</h4>
+      <p>Composer for PHP dependencies.</p>
+    </td>
+  </tr>
+</table>
 
 > ⚠️ **For the icons to show on GitHub**, replace `public/images/...` paths with the raw GitHub URLs of your images. For example:  
 > `https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/laravel.svg`
