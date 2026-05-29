@@ -5,12 +5,12 @@
 <h1 align="center"><img src="public/images/icon2.png" alt="Supabase" height="32"> Enactus Integrated Platform</h1>
 
 <p align="center">
-  <a href="https://laravel.com"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/joplin-color.svg"  media="(prefers-color-scheme: light)" alt="Laravel" height="32"></a>&nbsp;&nbsp;
-  <a href="https://www.php.net"><img src="public/images/php.svg" alt="PHP" height="32"></a>&nbsp;&nbsp;
-  <a href="https://supabase.com/"><img src="public/images/supabase.svg" alt="Supabase" height="32"></a>&nbsp;&nbsp;
-  <a href="https://coolify.io"><img src="public/images/coolify.svg" alt="Coolify" height="32"></a>&nbsp;&nbsp;
-  <a href="https://www.cloudflare.com"><img src="public/images/cloudflare.svg" alt="Cloudflare" height="32"></a>&nbsp;&nbsp;
-  <a href="https://www.hetzner.com"><img src="public/images/hetzner.svg" alt="Hetzner" height="32"></a>
+  <a href="https://laravel.com"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/laravel-color.svg"  media="(prefers-color-scheme: light)" alt="Laravel" height="32"></a>&nbsp;&nbsp;
+  <a href="https://www.php.net"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/php-color.svg" alt="PHP" height="32"></a>&nbsp;&nbsp;
+  <a href="https://supabase.com/"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/supabase-color.svg" alt="Supabase" height="32"></a>&nbsp;&nbsp;
+  <a href="https://coolify.io"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/coolify-color.svg" alt="Coolify" height="32"></a>&nbsp;&nbsp;
+  <a href="https://www.cloudflare.com"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/cloudflare-color.svg" alt="Cloudflare" height="32"></a>&nbsp;&nbsp;
+  <a href="https://www.hetzner.com"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/hetzner-color.svg" alt="Hetzner" height="32"></a>
 </p>
 
 <p align="center">
