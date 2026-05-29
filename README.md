@@ -96,19 +96,4 @@ Designed with respect for South Africa's diverse population and POPIA compliance
 
 ---
 
-## 🚀 Getting Started
-
-### 📋 Prerequisites
-- **PHP 8.4+** with extensions: `pgsql`, `pdo_pgsql`, `openssl`, `mbstring`, etc.
-- **Composer**
-- **Git**
-- **An SSH key** (Ed25519 recommended)
-- **A Hetzner server account** – ask the project lead to create one for you.
-
-### 1️⃣ Clone the repo
-```bash
-git clone https://github.com/Nkosi2000/Enactus-Integrated-Platform.git
-cd Enactus-Integrated-Platform
-```
----
 ### 
