@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/images/enactuslogo.jpg" alt="Enactus Integrated Platform Logo" width="600">
+  <img src="public/images/enactuslogo2removebg.png" alt="Enactus Integrated Platform Logo" width="600">
 </p>
 
 <h1 align="center">🌍 Enactus Integrated Platform</h1>
