@@ -5,12 +5,12 @@
 <h1 align="center"><img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/icon2.png" alt="Supabase" height="32"> Enactus Integrated Platform</h1>
 
 <p align="center">
-  <a href="https://laravel.com"><img src="https://raw.githubusercontent.com/.../public/images/laravel-color.svg" alt="Laravel" height="32"></a>&nbsp;&nbsp;
-  <a href="https://www.php.net"><img src="https://raw.githubusercontent.com/.../public/images/php-color.svg" alt="PHP" height="32"></a>&nbsp;&nbsp;
-  <a href="https://supabase.com/"><img src="https://raw.githubusercontent.com/.../public/images/supabase-color.svg" alt="Supabase" height="32"></a>&nbsp;&nbsp;
-  <a href="https://coolify.io"><img src="https://raw.githubusercontent.com/.../public/images/coolify-color.svg" alt="Coolify" height="32"></a>&nbsp;&nbsp;
-  <a href="https://www.cloudflare.com"><img src="https://raw.githubusercontent.com/.../public/images/cloudflare-color.svg" alt="Cloudflare" height="32"></a>&nbsp;&nbsp;
-  <a href="https://www.hetzner.com"><img src="https://raw.githubusercontent.com/.../public/images/hetzner-color.svg" alt="Hetzner" height="32"></a>
+  <a href="https://laravel.com"><img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/laravel-color.svg" alt="Laravel" height="32"></a>&nbsp;&nbsp;
+  <a href="https://www.php.net"><img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/php-color.svg" alt="PHP" height="32"></a>&nbsp;&nbsp;
+  <a href="https://supabase.com/"><img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/supabase-color.svg" alt="Supabase" height="32"></a>&nbsp;&nbsp;
+  <a href="https://coolify.io"><img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/coolify-color.svg" alt="Coolify" height="32"></a>&nbsp;&nbsp;
+  <a href="https://www.cloudflare.com"><img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/cloudflare-color.svg" alt="Cloudflare" height="32"></a>&nbsp;&nbsp;
+  <a href="https://www.hetzner.com"><img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/hetzner-color.svg" alt="Hetzner" height="32"></a>
 </p>
 
 <p align="center">
@@ -86,15 +86,15 @@ Designed with respect for South Africa's diverse population and POPIA compliance
     <td width="50%">
       <h4>🔧 Backend</h4>
       <p>
-        <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/" height="20"> Laravel<br>
-        <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/php-color.svg" height="20"> PHP 
+        <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/laravel-color.svg" height="20"> Laravel<br>
+        <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/php-color.svg" height="20"> PHP 
       </p>
     </td>
     <td width="50%">
       <h4>🗄️ Database</h4>
       <p>
-        <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/postgresql-color.svg" height="20"> Supabase (PostgreSQL)<br>
-        <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/supabase-color.svg" height="20"> Row‑Level Security ready
+        <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/postgresql-color.svg" height="20"> Supabase (PostgreSQL)<br>
+        <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/supabase-color.svg" height="20"> Row‑Level Security ready
       </p>
     </td>
   </tr>
@@ -102,9 +102,9 @@ Designed with respect for South Africa's diverse population and POPIA compliance
     <td>
       <h4>🚀 Deployment</h4>
       <p>
-        <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/coolify-color.svg" height="20"> Coolify<br>
-        <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/hetzner-color.svg" height="20"> Hetzner<br>
-        <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/cloudflare-color.svg" height="20"> Cloudflare (Full SSL)
+        <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/coolify-color.svg" height="20"> Coolify<br>
+        <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/hetzner-color.svg" height="20"> Hetzner<br>
+        <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/cloudflare-color.svg" height="20"> Cloudflare (Full SSL)
       </p>
     </td>
     <td>
@@ -116,7 +116,7 @@ Designed with respect for South Africa's diverse population and POPIA compliance
     <td>
       <h4>🎨 Frontend</h4>
       <p>Blade templates with
-      <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/sass-color.svg" height="15">
+      <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/sass-color.svg" height="15">
         Tailwind CSS (planned).</p>
     </td>
     <td>
