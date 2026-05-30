@@ -115,9 +115,11 @@ Designed with respect for South Africa's diverse population and POPIA compliance
   <tr>
     <td>
       <h4>🎨 Frontend</h4>
-      <p>Blade templates with
-      <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/sass-color.svg" height="15">
-        Tailwind CSS (planned).</p>
+        <p>
+            <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/laravel-color.svg" height="20"> Laravel Blade<br>
+            <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/sass-color.svg" height="20"> Tailwind CSS<br>
+            <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/boostrap-color.svg" height="20"> Bootstrap
+        </p>
     </td>
     <td>
       <h4>🧪 Testing</h4>
