@@ -132,8 +132,10 @@ Designed with respect for South Africa's diverse population and POPIA compliance
   </tr>
   <tr>
     <td>
-      <h4>⚡ Cache & Queue</h4>
-      <p>Database driver for development; Redis ready for production.</p>
+      <h4>⚡ Cache </h4>
+        <p>
+            <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/redis-color.svg" height="20"> Redis<br>
+        </p>
     </td>
     <td>
       <h4>📦 Package Management</h4>
