@@ -147,6 +147,3 @@ Designed with respect for South Africa's diverse population and POPIA compliance
     </td>
   </tr>
 </table>
----
-
-### 
