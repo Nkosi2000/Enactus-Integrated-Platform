@@ -123,7 +123,11 @@ Designed with respect for South Africa's diverse population and POPIA compliance
     </td>
     <td>
       <h4>🧪 Testing</h4>
-      <p>PHPUnit for unit and feature tests.</p>
+        <p>
+           <a href="https://phpunit.de/index.html">
+                <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/phpunit.svg" height="20">
+           </a> PHPUnit for unit and feature tests.
+        </p>
     </td>
   </tr>
   <tr>
@@ -133,7 +137,11 @@ Designed with respect for South Africa's diverse population and POPIA compliance
     </td>
     <td>
       <h4>📦 Package Management</h4>
-      <p>Composer for PHP dependencies.</p>
+      <p>
+        <a href="https://getcomposer.org">
+            <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/composer-color.svg" height="20">
+        </a> Composer for PHP dependencies.
+      </p>
     </td>
   </tr>
 </table>
