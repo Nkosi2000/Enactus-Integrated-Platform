@@ -139,7 +139,7 @@ Designed with respect for South Africa's diverse population and POPIA compliance
       <h4>📦 Package Management</h4>
       <p>
         <a href="https://getcomposer.org">
-            <img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/composer-color.svg" height="20">
+            <img src="https://github.com/..../public/images/composer-color.svg" height="20">
         </a> Composer for PHP dependencies.
       </p>
     </td>
