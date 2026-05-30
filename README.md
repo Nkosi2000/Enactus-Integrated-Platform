@@ -1,16 +1,16 @@
 <p align="center">
-  <a href="https://enactusza.org"><img src="https://raw.githubusercontent.com/.../public/images/enactuslogo2removebg.png" alt="Enactus Integrated Platform Logo" width="600"></a>
+  <a href="https://enactusza.org"><img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/tree/main/public/images/enactuslogo2removebg.png" alt="Enactus Integrated Platform Logo" width="600"></a>
 </p>
 
 <h1 align="center"><img src="https://raw.githubusercontent.com/.../public/images/icon2.png" alt="Supabase" height="32"> Enactus Integrated Platform</h1>
 
 <p align="center">
-  <a href="https://laravel.com"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/public/images/laravel-color.svg" alt="Laravel" height="32"></a>&nbsp;&nbsp;
-  <a href="https://www.php.net"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/php-color.svg" alt="PHP" height="32"></a>&nbsp;&nbsp;
-  <a href="https://supabase.com/"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/supabase-color.svg" alt="Supabase" height="32"></a>&nbsp;&nbsp;
-  <a href="https://coolify.io"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/coolify-color.svg" alt="Coolify" height="32"></a>&nbsp;&nbsp;
-  <a href="https://www.cloudflare.com"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/cloudflare-color.svg" alt="Cloudflare" height="32"></a>&nbsp;&nbsp;
-  <a href="https://www.hetzner.com"><img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/main/public/images/hetzner-color.svg" alt="Hetzner" height="32"></a>
+  <a href="https://laravel.com"><img src="https://raw.githubusercontent.com/.../public/images/laravel-color.svg" alt="Laravel" height="32"></a>&nbsp;&nbsp;
+  <a href="https://www.php.net"><img src="https://raw.githubusercontent.com/.../public/images/php-color.svg" alt="PHP" height="32"></a>&nbsp;&nbsp;
+  <a href="https://supabase.com/"><img src="https://raw.githubusercontent.com/.../public/images/supabase-color.svg" alt="Supabase" height="32"></a>&nbsp;&nbsp;
+  <a href="https://coolify.io"><img src="https://raw.githubusercontent.com/.../public/images/coolify-color.svg" alt="Coolify" height="32"></a>&nbsp;&nbsp;
+  <a href="https://www.cloudflare.com"><img src="https://raw.githubusercontent.com/.../public/images/cloudflare-color.svg" alt="Cloudflare" height="32"></a>&nbsp;&nbsp;
+  <a href="https://www.hetzner.com"><img src="https://raw.githubusercontent.com/.../public/images/hetzner-color.svg" alt="Hetzner" height="32"></a>
 </p>
 
 <p align="center">
