@@ -1,8 +1,8 @@
 <p align="center">
-  <a href="https://enactusza.org"><img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/tree/main/public/images/enactuslogo2removebg.png" alt="Enactus Integrated Platform Logo" width="600"></a>
+  <a href="https://enactusza.org"><img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/enactuslogo2removebg.png" alt="Enactus Integrated Platform Logo" width="600"></a>
 </p>
 
-<h1 align="center"><img src="https://raw.githubusercontent.com/.../public/images/icon2.png" alt="Supabase" height="32"> Enactus Integrated Platform</h1>
+<h1 align="center"><img src="https://github.com/Nkosi2000/Enactus-Integrated-Platform/blob/main/public/images/icon2.png" alt="Supabase" height="32"> Enactus Integrated Platform</h1>
 
 <p align="center">
   <a href="https://laravel.com"><img src="https://raw.githubusercontent.com/.../public/images/laravel-color.svg" alt="Laravel" height="32"></a>&nbsp;&nbsp;
