@@ -81,22 +81,20 @@ Designed with respect for South Africa's diverse population and POPIA compliance
 
 ## 🧱 Tech Stack
 
-## 🧱 Tech Stack
-
 <table>
   <tr>
     <td width="50%">
       <h4>🔧 Backend</h4>
       <p>
-        <img src="public/images/laravel.svg" height="20"> Laravel 11<br>
-        <img src="public/images/php.svg" height="20"> PHP 8.4
+        <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/mainpublic/images/laravel-color.svg" height="20"> Laravel<br>
+        <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/mainpublic/images/php-color.svg" height="20"> PHP 
       </p>
     </td>
     <td width="50%">
       <h4>🗄️ Database</h4>
       <p>
-        <img src="public/images/supabase.svg" height="20"> PostgreSQL 15 (Supabase)<br>
-        <img src="public/images/supabase.svg" height="20"> Row‑Level Security ready
+        <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/mainpublic/images/postgresql-color.svg" height="20"> Supabase (PostgreSQL)<br>
+        <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/mainpublic/images/supabase-color.svg" height="20"> Row‑Level Security ready
       </p>
     </td>
   </tr>
@@ -104,9 +102,9 @@ Designed with respect for South Africa's diverse population and POPIA compliance
     <td>
       <h4>🚀 Deployment</h4>
       <p>
-        <img src="public/images/coolify.svg" height="20"> Coolify<br>
-        <img src="public/images/hetzner.svg" height="20"> Hetzner CX23<br>
-        <img src="public/images/cloudflare.svg" height="20"> Cloudflare (Full SSL)
+        <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/mainpublic/images/coolify-color.svg" height="20"> Coolify<br>
+        <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/mainpublic/images/hetzner-color.svg" height="20"> Hetzner<br>
+        <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/mainpublic/images/cloudflare-color.svg" height="20"> Cloudflare (Full SSL)
       </p>
     </td>
     <td>
@@ -117,7 +115,9 @@ Designed with respect for South Africa's diverse population and POPIA compliance
   <tr>
     <td>
       <h4>🎨 Frontend</h4>
-      <p>Blade templates with Tailwind CSS (planned).</p>
+      <p>Blade templates with
+      <img src="https://raw.githubusercontent.com/Nkosi2000/Enactus-Integrated-Platform/mainpublic/images/sass-color.svg" height="15">
+        Tailwind CSS (planned).</p>
     </td>
     <td>
       <h4>🧪 Testing</h4>
