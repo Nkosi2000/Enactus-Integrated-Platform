@@ -1,0 +1,35 @@
+Three Documents:
+---------------------------------------
+1.Active Team Sheet Report
+2.Impact Report 
+3.Benefitiary Report
+---------------------------------------
+				Schema
+---------------------------------------
+	-- ACTIVE TEAM SHEET REPORT --
+------------Student Table--------------
+[1] student id
+[2] student idnumber
+[3] student cohort year
+[4] student status [active | alumni | inactive]
+[5] student fname
+[6] student lname
+[7] student email
+[8] student phonenumber
+[9] gander [Male, Female, Non-binary]
+
+[10] ?age? actual age (iterate pre year) = [ 6–13, 14–18, 19–24, 25–35, 36–45, 46–55, 56–65, Over 65 — at beneficiary level (already in Zoho CSV but not relational)]
+[11] race (BBBEEE format)[Black African, Coloured, Indian/Asian, White, Undetermined]
+
+[12] faculty
+[13] academic year
+[14] graduation year
+[15] qualification 
+
+[16 ]hours of enactus involvement per student
+[17] disability [Yes / No / Prefer not to say]
+
+[Beneficiary Report] { [nationality/region] -- university fk Nationality - Province, Municipality, Type of location (Urban / Peri-urban / Rural / Township) — partially in Beneficiary List but not structured }
+
+[18] created at
+[19] updated at
